@@ -81,15 +81,15 @@ JimToast.showUrgent(getApplicationContext(), "Urgent toast", JimToast.DURATION_L
 
 ```java
 JimToast.show(getApplicationContext(), "Custom icon", JimToast.DURATION_SHORT, JimToast.TYPE_ERROR, R.drawable.ic_launcher);
-  JimToast.show(getApplicationContext(), "Remove icon", JimToast.DURATION_SHORT, JimToast.TYPE_HELP, 0);
+JimToast.show(getApplicationContext(), "Remove icon", JimToast.DURATION_SHORT, JimToast.TYPE_HELP, 0);
 ```
 #
 **🧠 Flexible message input:** Accepts any type convertible to `String`
 
 ```java
 JimToast.show(getApplicationContext(), 3.14f, JimToast.DURATION_LONG, JimToast.TYPE_INFO);
-  JimToast.show(getApplicationContext(), new Date(), JimToast.DURATION_LONG, JimToast.TYPE_PENDING);
-  JimToast.show(getApplicationContext(), R.string.hello_text, JimToast.DURATION_LONG, JimToast.TYPE_SETUP);
+JimToast.show(getApplicationContext(), new Date(), JimToast.DURATION_LONG, JimToast.TYPE_PENDING);
+JimToast.show(getApplicationContext(), R.string.hello_text, JimToast.DURATION_LONG, JimToast.TYPE_SETUP);
 ```
 #
 **🔁 Cancel all current and queued toasts**
