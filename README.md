@@ -30,7 +30,7 @@ It offers predefined colorful styles, smart queuing, customizable icons, and imm
 
 Download and install the latest release to see JimToast in action:
 
-👉 [Download Latest APK](https://github.com/tmsbj/jimtoast/releases/latest/download/app-release.apk) 📲
+👉 [Download Latest APK](https://github.com/tmsbj/jimtoast/releases/latest/download/sample-release.apk) 📲
 
 <sub>No permissions required. Works in all Android versions API 21+.</sub>
 
